@@ -36,7 +36,7 @@ section{
     margin: auto;
 }
 .about .max-width{
-    background-image: url("/images/roboback.jpg");
+    background-image: url("images/roboback.jpg");
     background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
@@ -811,6 +811,10 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
+    .dgs .card{
+        margin: 0;
+        margin-top: 10px;
+    }
     .home .home-content .text-2{
         font-size: 50px;
     }
